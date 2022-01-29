@@ -1,6 +1,46 @@
 .div1{
     text-align: center;
 }
-.title{
+.title,h2{
     text-align: center;
+}
+.wrapper{
+    display:flex;
+}
+
+.smalldiv{
+    display:flex;
+    flex:1;
+}
+.btn{
+    padding-top: 25%;
+    padding-bottom: 25%;
+    font-size: 20px;
+    margin:10px;
+    flex:1;
+    background-color: #A3E4DB;
+
+}
+.response{
+    text-align: center;
+}
+h4{
+    font-size: 25px;
+}
+.wrapperTitles{
+    display:flex;
+    justify-content: center;
+}
+.scorediv{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+}
+.Pscore,.Cscore{
+    margin-top: 1%;
+    font-size: 30px;
+}
+.scoreTitle{
+    font-size: 20px;
 }
